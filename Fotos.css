@@ -1,0 +1,94 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(imagenes/fondos-/color.jpg);
+    background-size: cover;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+}
+
+.menuBarraPh{
+
+        background-color: rgb(245,245,245);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 0px 0px 6px 4px rgba(138, 43, 226, 0.25);
+
+}
+.menuBarraPhH2{
+    color: blueviolet;
+    font-size: 1.8em;
+}
+.galeriaP{
+    display: flex;
+    justify-content: center;
+}
+.menuBarraBtnPh{
+    border: solid blueviolet;
+    background-color: blueviolet;
+    border-width: 15px;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 75%);
+    text-decoration: none; 
+    transition: 0.5s ;
+}
+.menuBarraBtnPh:hover{
+    border: solid rgb(94, 33, 151);
+    background-color: rgb(94, 33, 151);
+    border-width: 17px;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 22px;
+    box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 75%);
+    text-decoration: none; 
+}
+.galeriaPH{
+    display: flex;
+    justify-content: center;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+
+}
+.sectionInfoH2{
+    display: flex;
+    justify-content:center ;
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3) ) ;
+    font-size: 1.5em;
+    color: white; 
+}
+
+.sectionInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paginasBtnPh{
+        border: solid blueviolet;
+        background-color: blueviolet;
+        border-width: 15px;
+        color: white;
+        font-size: 1.3em;
+        border-radius: 20px;
+        box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 75%);
+        text-decoration: none; 
+        transition: 0.5s ;
+}
+.paginasBtnPh:hover{
+    border: solid rgb(94, 33, 151);
+    background-color: rgb(94, 33, 151);
+    border-width: 17px;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 22px;
+    box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 75%);
+    text-decoration: none; 
+}
+.paginasFooterPh{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(63, 63, 63);
+}

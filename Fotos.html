@@ -4,64 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link css -->
+        <link rel="stylesheet" href="Fotos.css">
+        <!-- Animaciones -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- link boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   
+
+
     <title>Galeria de Fotos</title>
 </head>
 <body>
     <!-- MENU BARRA -->
     <nav>
-        <div>
-            <ul>
-                <h2>Luisitas Nails!</h2>
-            </ul>
-            <ul>
-                <img src="imagenes/fondos-/Logo-luisitas.png" width="10%" alt="">
-            </ul>
-            <div>         <!-- BTN -->
-                <a class="btn" href="Citas.html" target="_blank">📅 Pedir Cita!</a>
-            </div>        <!-- BTN -->
+        <div class="menuBarraPh">
+            <div>
+                <img src="imagenes/fondos-/Logo-luisitas.png" width="65%" alt="">
+            </div>
+            <div class="menuBarraPhH2">
+                <h2 class="animate__animated  animate__fadeIn">Luisitas Nails!</h2>
+            </div>
+            <!-- BTN -->
+            <a class="menuBarraBtnPh" href="Citas.html" target="_blank">📅 Pedir Cita!</a>
+            <!-- BTN -->
         </div>
     </nav>
     <!-- FIN MENU BARRA -->
     <!-- INCIO GALERIA DE FOTOS -->
-    <div> 
+    <div class="galeriaPH"> 
         <h2>Hace brillar tus uñas ! </h2>
-    </div>   
+    </div> 
+    <div class="galeriaP">
         <p> 
             Mira nuestra galería de fotos y conoce todos los diseños y estilos que podes implementar en tus uñas !
         </p>
-    <div>
-        <img src="imagenes/uñas/1.jpg"  width="8%" alt="">
-        <img src="imagenes/uñas/2.jpg"  width="8%" alt="">
-        <img src="imagenes/uñas/3.jpg"  width="8%" alt="">
-        <img src="imagenes/uñas/4.jpg"  width="8%" alt="">
-        <img src="imagenes/uñas/5.jpg"  width="8%" alt="">
-        <img src="imagenes/uñas/6.jpg"  width="8%" alt="">
-        <img src="imagenes/uñas/7.jpg"  width="8%" alt="">
-        <img src="imagenes/uñas/8.jpg" width="8%"  alt="">
-        <img src="imagenes/uñas/9.jpg" width="8%"  alt="">
-        <img src="imagenes/uñas/10.jpg" width="8%" alt="">
-        <img src="imagenes/uñas/11.jpg"  width="8%" alt="">
-    </div>
+    </div>  
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/uñas-1.jpg" class="d-block w-25"  alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img src="assets/img/uñas-2.jpg" class="d-block w-25" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img src="assets/img/uñas-3.jpg" class="d-block w-25"  alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
     <!-- FIN GALERIA DE FOTOS -->
     <!-- INICIO DE NUESTRAS PAGINAS CON LINKS -->
-    <div> 
+    <div class="sectionInfoH2"> 
         <h2>Nuestras Paginas</h2>
-    </div>   
-    <!-- BTN -->
-    <div>                       
-        <a href="Citas.html" target="_blank">📅 Pedir Cita!</a>
-    </div>                          
-    <!-- BTN -->
-    <div>
-        <a href="https://www.instagram.com/luisitas_nail/?hl=es"><img src="logos/instagram-logo.png" alt="imagen-logo-instagram"></a>
-        <a href="https://www.facebook.com/profile.php?id=100079977733706"><img src="logos/facebook-logo.png" alt="imagen-logo-facebook"></a>
-        <a href="tel:+34611326628"><img src="logos/wtp-logo.png" alt="imagen-logo-whatsapp"></a>
-    </div>
-    <!-- FIN DE NUESTRAS PAGINAS CON LINKS -->
+    </div>  
+    <br><br>
+    <section class="sectionInfo">
+        <div>
+            <a href="https://www.instagram.com/luisitas_nail/?hl=es"><img src="logos/instagram-logo.png" alt="imagen-logo-instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100079977733706"><img src="logos/facebook-logo.png" alt="imagen-logo-facebook"></a>
+            <a href="tel:+34611326628"><img src="logos/wtp-logo.png" alt="imagen-logo-whatsapp"></a>
+        </div>
+        <!-- BTN -->
+        <div>                       
+            <a class="paginasBtnPh" href="Citas.html" target="_blank">📅 Pedir Cita!</a>
+        </div>                          
+        <!-- BTN -->
+    </section>
     <!-- INICIO FOOTER -->
-    <footer>
+    <footer class="paginasFooterPh">
         <p>©DiseñoWeb-Sain 2022</p>
     </footer>
     <!-- FIN FOOTER -->
+    <!-- FIN DE NUESTRAS PAGINAS CON LINKS -->
 </body>
 </html>
