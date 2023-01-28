@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- FUENTE DE LETRAS -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Animaciones -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- link css -->
+    <link rel="stylesheet" href="servicios.css">
+    <!-- link boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- titulo de la web -->
     <title>Servicios</title>
 </head>
 <body>
     <!-- MENU BARRA -->
     <nav>
-        <div>
-            <div>         <!-- BTN -->
-                <a href="Citas.html" target="_blank">📅 Pedir Cita!</a>
-            </div>        <!-- BTN -->
-            <div>
-                <h2>Luisitas Nails!</h2>
-            </div>
-            <div>
-                <!-- AGREGAR LOGO DESDE EL CSS -->
-            </div>
+        <div class="menuServicios">   
+             <!-- BTN -->
+            <a class="Btn" href="Citas.html">📅 Pedir Cita!</a> 
+             <!-- BTN -->
+             <h2 class="animate__animated  animate__fadeIn">¡Luisitas Nails!</h2>
+            <img src="imagenes/fondos-/Logo-luisitas.png" width="7%" alt="">
         </div>
     </nav>
     <!-- FIN MENU BARRA -->
     <!-- INICIO SECTION, EXPLICACION DE TRABAJOS -->
-    <div>
-        <div>
-            <img src="imagenes/uñas/1.jpg" width="8%" alt="">
-        </div>
-        <div>
+<br><br>
+    <div class="container text-center">
+        <div class="row gy-5">
+          <div class="col-5">
+                <img class="Ph" src="assets/img/uñas-1.jpg" width="70%" alt="">
+          </div>
+            <div class="col-7">
+            <div class="divPh">
             <p>
                 Semipermanentes
                 El esmaltado semipermanente es un sistema de duración corta,
@@ -36,29 +50,36 @@
                 basta con un removedor (acetona). Además, lo puedes encontrar en diferentes 
                 colores, ya que es un híbrido de esmalte y gel.
             </p>
+            </div>
+          </div>
         </div>
-    </div>
-    <div>
-        <div>
-            <img src="imagenes/uñas/2.jpg" width="8%" alt="">
-        </div>
-        <div>
-            <p>
-                Kappingen Gel
-                El Kapping consiste en aplicar una fina capa 
-                de acrílico o gel fortificador sobre la uña que 
-                actuará como una barrera protectora. A diferencia de las
-                uñas esculpidas,
-                este baño en gel kapping no alarga la uña natural
-                Sino que acompaña el crecimiento de la misma y dura hasta 20 días
-            </p>
-        </div>
-    </div>
-    <div>
-        <div>
-            <img src="imagenes/uñas/3.jpg" width="8%" alt="">
-        </div>
-            <div>
+        <br>
+        <div class="row gy-5">
+            <div class="col-7 ">
+                <div class="divPh">
+                <p>
+                    Kappingen Gel
+                    El Kapping consiste en aplicar una fina capa 
+                    de acrílico o gel fortificador sobre la uña que 
+                    actuará como una barrera protectora. A diferencia de las
+                    uñas esculpidas,
+                    este baño en gel kapping no alarga la uña natural
+                    Sino que acompaña el crecimiento de la misma y dura hasta 20 días
+                </p>
+                </div>
+            </div>
+            <div class="col-5">
+                    <img class="Ph" src="assets/img/uñas-2.jpg" width="70%" alt="">
+            </div>
+          </div>
+          <br>
+          <div class="row gy-5">
+            <div class="col-5">
+                    <img class="Ph" src="assets/img/uñas-3.jpg" width="70%" alt="">
+            </div>
+            <br>
+            <div class="col-7">
+                <div class="divPh">
                 <p>Nail Art
                     La expresión inglesa nail art alude
                     a formas creativas de arreglar las
@@ -68,28 +89,37 @@
                     es la operación que consiste en el cuidado, 
                     pintura y embellecimiento de las uñas'— y artística, que aporta la faceta creativa
                 </p>
+                </div>
             </div>
-    </div>
+          </div>
+          <br>
+      </div>
     <!-- FIN SECTION, EXPLICACION DE TRABAJOS -->
+    <section class="caracteristicas" >
+       <ul class="list">
+          <li>✔️ 100% Confiable</li>
+          <li>✔️ Flexibilidad de horarios</li>
+          <li>✔️ Recomendable para el cuidado de tus uñas!</li>
+       </ul>
+    </section>
     <!-- INCIO NUESTRAS PAGINAS CON LINKS -->
-    <div> 
-        <h2>Nuestras Paginas</h2>
-    </div>   
-    <!-- BTN -->
-    <div>                       
-        <a href="Citas.html" target="_blank">📅 Pedir Cita!</a>
-    </div>                          
-    <!-- BTN -->
-    <div>
-        <a href="https://www.instagram.com/luisitas_nail/?hl=es"><img src="logos/instagram-logo.png" alt="imagen-logo-instagram"></a>
-        <a href="https://www.facebook.com/profile.php?id=100079977733706"><img src="logos/facebook-logo.png" alt="imagen-logo-facebook"></a>
-        <a href="tel:+34611326628"><img src="logos/wtp-logo.png" alt="imagen-logo-whatsapp"></a>
-    </div>
-    <!-- FIN NUESTRAS PAGINAS CON LINKS -->
+    <section class="serviciosLinks">
+        <div>
+            <a href="https://www.instagram.com/luisitas_nail/?hl=es"><img src="logos/instagram-logo.png" alt="imagen-logo-instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100079977733706"><img src="logos/facebook-logo.png" alt="imagen-logo-facebook"></a>
+            <a href="tel:+34611326628"><img src="logos/wtp-logo.png" alt="imagen-logo-whatsapp"></a>
+        </div>
+        <!-- BTN -->
+        <div>                       
+            <a class="Btn" href="Citas.html" target="_blank">📅 Pedir Cita!</a>
+        </div>                          
+        <!-- BTN -->
+    </section>
     <!-- INICIO FOOTER -->
-    <footer>
+    <footer class="serviciosFooter">
         <p>©DiseñoWeb-Sain 2022</p>
     </footer>
     <!-- FIN FOOTER -->
+    <!-- FIN DE NUESTRAS PAGINAS CON LINKS -->
 </body>
 </html>
