@@ -204,7 +204,7 @@ body{
     padding-inline: 8px;
 }
 }
-@media (max-width: 536px){
+@media (max-width: 576px){
     .menuBarra{
         flex-direction: column;
     }
