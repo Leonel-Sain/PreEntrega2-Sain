@@ -217,5 +217,11 @@ body{
     .linea::after, .linea::before{
         display: none;
     }
+    .sectionDos p{
+        font-size:1.4em ;
+}
+.linea{
+    font-size: 1.5em;
+}
 }
             /*FIN @MEDIA*/
