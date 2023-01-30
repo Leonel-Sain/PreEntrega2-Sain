@@ -6,6 +6,19 @@ body{
     font-family: "roboto", sans-serif;
     font-weight: bold;
 }
+/*SCROOLBAR*/
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: #bdbdbd ;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #59415e;
+}
+/*FIN SCROLLBAR*/
+
 /*INCIO MENU BARRA*/
 
 .menuServicios{
